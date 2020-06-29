@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:TwoCardsAnimationControl.Controls"
+             mc:Ignorable="d"
+             x:Class="XFTwoCardsAnimationView.MainPage">
+    <StackLayout Padding="20">
+       <controls:TwoCardsAnimationControl>
+                <controls:TwoCardsAnimationControl.BackView>
+                     <Image HeightRequest="200"
+                            Source="https://puu.sh/G0SX0/9164342849.png"/>
+                </controls:TwoCardsAnimationControl.BackView>
+
+                    <controls:TwoCardsAnimationControl.FrontView>
+                         <Image HeightRequest="200"
+                            Source="https://puu.sh/G0SYl/9400460817.png"/>
+                </controls:TwoCardsAnimationControl.FrontView>
+          </controls:TwoCardsAnimationControl>
+    </StackLayout>
+</ContentPage>
